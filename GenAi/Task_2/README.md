@@ -1,4 +1,5 @@
 LangChain Orchestration: Technical Implementation
+**Link for the Blog:** https://medium.com/@antonyjohny0704/architecting-intelligence-a-deep-dive-into-the-langchain-framework-25478811d3ec
 This repository demonstrates the construction of advanced LLM applications using the **LangChain framework** and **LCEL (LangChain Expression Language)**. The implementation focuses on modularity, transitioning from basic prompt engineering to autonomous agentic systems.
 
 Key Technical Modules:
