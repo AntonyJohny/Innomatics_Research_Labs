@@ -1,20 +1,11 @@
-🚀 Getting Started
-Prerequisites
-Python 3.9+
+LangChain Orchestration: Technical Implementation
+This repository demonstrates the construction of advanced LLM applications using the LangChain framework and LCEL (LangChain Expression Language). The implementation focuses on modularity, transitioning from basic prompt engineering to autonomous agentic systems.
 
-CUDA-enabled GPU (recommended for real-time FPS optimization)
+Key Technical Modules:
+LCEL Chains: Utilizes the pipe (|) operator to create a declarative, model-agnostic pipeline. This ensures a clean flow between the Prompt Template, the FLAN-T5 model via HuggingFace, and the Output Parser.
 
-Installation
-Clone the repository:
+Conversation Memory: Implements ConversationBufferMemory to introduce "state" into the inherently stateless LLM, allowing for contextual awareness in multi-turn interactions.
 
-Bash
-git clone [https://github.com/AntonyJohny/object-video-detection-yolov-deepface.git](https://github.com/AntonyJohny/object-video-detection-yolov-deepface.git)
-cd object-video-detection-yolov-deepface
-Install dependencies:
+ReAct Agents: Employs a Reasoning and Acting framework. The agent uses the LLM as a reasoning engine to determine when to call external tools (e.g., llm-math) to solve complex queries.
 
-Bash
-pip install -r requirements.txt
-Run the application:
-
-Bash
-python app.py
+System Architecture: The codebase follows a cognitive loop design, bridging the gap between static training data and dynamic tool execution.
