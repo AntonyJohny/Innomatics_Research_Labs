@@ -1,1 +1,36 @@
+Case 1: Chef: 10 years cooking Italian cuisine. Skills: Pizza, Pasta.
 
+Input:
+job_description : Data Scientist: Requires Python, SQL, and 2 years Machine Learning experience.
+resume_text : Chef: 10 years cooking Italian cuisine. Skills: Pizza, Pasta.
+
+Output:
+Evaluation of Resume against Job Description
+
+Step 1: Extract Skills, Experience, and Tools from Resume
+- Skills Extracted:
+  - Pizza
+  - Pasta
+- Experience: 10 years in cooking Italian cuisine
+- Tools: None mentioned
+
+Step 2: Compare with Job Description Requirements
+- Job Requirements:
+  - Python
+  - SQL
+  - 2 years Machine Learning experience
+- Comparison:
+  - The resume does not mention Python, SQL, or any experience with Machine Learning.
+
+Step 3: Assign a Fit Score (0-100)
+- Fit Score: 0
+
+Step 4: Provide a Detailed Explanation
+- Explanation: The provided resume is for a Chef with 10 years of experience in cooking Italian cuisine, with skills in Pizza and Pasta. However, the job description is for a Data Scientist requiring skills in Python, SQL, and at least 2 years of experience in Machine Learning. Since the resume does not mention any of the required skills or experience for the Data Scientist position, the candidate does not meet any of the job's requirements. Therefore, the fit score is 0, indicating the candidate is not suitable for the Data Scientist role based on the information provided.
+
+Output
+- Score: 0
+- Skills Extracted:
+  - Pizza
+  - Pasta
+- Explanation: The candidate's background and skills are entirely unrelated to the requirements of the Data Scientist position, resulting in a complete mismatch.
