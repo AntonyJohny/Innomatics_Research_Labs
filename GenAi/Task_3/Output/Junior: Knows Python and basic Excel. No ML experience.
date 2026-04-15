@@ -1,34 +1,35 @@
 Case 3: Junior: Knows Python and basic Excel. No ML experience.
 
 Input:
-{"job_description":"Data Scientist: Requires Python, SQL, and 2 years Machine Learning experience.","resume_text":"Junior: Knows Python and basic Excel. No ML experience."}
+job_description: Data Scientist: Requires Python, SQL, and 2 years Machine Learning experience.
+resume_text: Junior: Knows Python and basic Excel. No ML experience.
 
 Output:
-### Evaluation of Resume against Job Description
+Evaluation of Resume against Job Description
 
-#### Step 1: Extract Skills, Experience, and Tools from Resume
-- **Skills Extracted:** 
+Step 1: Extract Skills, Experience, and Tools from Resume
+- Skills Extracted: 
   - Programming: Python
   - Software: Excel (basic)
-- **Experience:** Junior level, no specific years of experience mentioned
-- **Tools:** None explicitly mentioned beyond Excel
+- Experience: Junior level, no specific years of experience mentioned
+- Tools: None explicitly mentioned beyond Excel
 
-#### Step 2: Compare with Job Description Requirements
-- **Job Requirements:**
+Step 2: Compare with Job Description Requirements
+- Job Requirements:
   - Python
   - SQL
   - 2 years of Machine Learning experience
-- **Comparison:**
+- Comparison:
   - Matches: Python
   - Does not match: SQL, Machine Learning experience
 
-#### Step 3: Assign a Fit Score (0-100)
-- **Fit Score:** 10
+Step 3: Assign a Fit Score (0-100)
+- Fit Score: 10
 
-#### Step 4: Provide a Detailed Explanation
-- **Explanation:** The candidate's resume shows a basic understanding of Python, which aligns with one of the job's requirements. However, the candidate lacks experience in SQL and, more critically, has no mentioned experience in Machine Learning, which is a crucial requirement for the Data Scientist position. The candidate's junior level and basic Excel skills do not compensate for the missing key skills and experience required for the role. Therefore, the fit score is low, indicating the candidate is not a strong match for the Data Scientist position as described.
+Step 4: Provide a Detailed Explanation
+- Explanation: The candidate's resume shows a basic understanding of Python, which aligns with one of the job's requirements. However, the candidate lacks experience in SQL and, more critically, has no mentioned experience in Machine Learning, which is a crucial requirement for the Data Scientist position. The candidate's junior level and basic Excel skills do not compensate for the missing key skills and experience required for the role. Therefore, the fit score is low, indicating the candidate is not a strong match for the Data Scientist position as described.
 
-### Output
-- **Score:** 10
-- **Skills Extracted:** Python, basic Excel
-- **Explanation:** The candidate lacks essential skills and experience for the Data Scientist role, including SQL knowledge and Machine Learning experience, resulting in a low fit score.
+Output
+- Score: 10
+- Skills Extracted: Python, basic Excel
+- Explanation: The candidate lacks essential skills and experience for the Data Scientist role, including SQL knowledge and Machine Learning experience, resulting in a low fit score.
