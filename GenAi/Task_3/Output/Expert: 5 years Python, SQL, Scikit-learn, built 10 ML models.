@@ -1,1 +1,37 @@
+Case 2: Expert: 5 years Python, SQL, Scikit-learn, built 10 ML models.
 
+Input:
+job_description : Data Scientist: Requires Python, SQL, and 2 years Machine Learning experience.
+resume_text : Expert: 5 years Python, SQL, Scikit-learn, built 10 ML models.
+
+Ouput:
+
+Evaluation of Resume Against Job Description
+Step 1: Extract Skills, Experience, and Tools
+- Skills Extracted:
+  - Python
+  - SQL
+  - Scikit-learn
+  - Machine Learning (with experience in building ML models)
+
+Step 2: Compare with Job Description Requirements
+
+- Job Requirements:
+  - Python
+  - SQL
+  - 2 years of Machine Learning experience
+-Comparison:
+  - The candidate has Python and SQL skills as required.
+  - The candidate has experience with Scikit-learn, which implies experience with Machine Learning.
+  - The candidate has built 10 ML models, indicating substantial experience in Machine Learning, exceeding the 2-year requirement.
+
+Step 3: Assign a Fit Score (0-100)
+- Fit Score: 90
+
+Step 4: Provide a Detailed Explanation
+- Explanation: The candidate's resume demonstrates a strong fit for the Data Scientist position. The candidate possesses all the technical skills required by the job description, including Python, SQL, and significant experience in Machine Learning. The mention of Scikit-learn and the experience in building 10 ML models underscore the candidate's proficiency in Machine Learning, surpassing the job's requirement of 2 years of experience. The only reason the score is not 100 is that the resume does not explicitly state the duration of the candidate's Machine Learning experience, although it implies a high level of expertise. Given the information provided, the candidate appears to be highly qualified for the position, with a minor deduction for the lack of explicit detail on the duration of Machine Learning experience.
+
+Output:
+- Score: 90
+- Skills Extracted: Python, SQL, Scikit-learn, Machine Learning
+- Explanation: The candidate is highly qualified with all required skills and substantial experience in Machine Learning, making them a strong fit for the Data Scientist role.
